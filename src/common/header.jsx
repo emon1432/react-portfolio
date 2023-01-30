@@ -34,11 +34,11 @@ class Header extends Component {
                             <Link to="/portfolio">Portfolio</Link>
                           </li>
                           <li>
+                            <Link to="/blog">Blog</Link>
+                          </li>
+                          {/* <li>
                             <Link to="#">Page</Link>
                             <ul className="submenu">
-                              <li>
-                                <Link to="/blog">Blog</Link>
-                              </li>
                               <li>
                                 <Link to="/blog_details">Blog Details</Link>
                               </li>
@@ -51,7 +51,7 @@ class Header extends Component {
                                 </Link>
                               </li>
                             </ul>
-                          </li>
+                          </li> */}
                           <li>
                             <Link to="/contact">Contact</Link>
                           </li>
