@@ -1,24 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
-import Footer from "./common/footer";
-import Header from "./common/header";
-import PreLoader from "./common/pre-loader";
-import ScrollUp from "./common/scrollUp";
+import Footer from "./common/Footer";
+import Header from "./common/Header";
+import Preloader from "./common/Preloader";
 import reportWebVitals from "./reportWebVitals";
 import Routers from "./routes";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PreLoader />
+    <Preloader />
     <Router>
       <Header />
       <Routers />
       <Footer />
-      <ScrollUp />
     </Router>
   </React.StrictMode>
 );
 
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

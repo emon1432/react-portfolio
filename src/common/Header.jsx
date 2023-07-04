@@ -5,20 +5,20 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div className="header-area">
-          <div className="main-header  header-sticky">
-            <div className="container-fluid">
-              <div className="row align-items-center">
-                <div className="col-xl-2 col-lg-2 col-md-1">
-                  <div className="logo">
+        <div class="header-area">
+          <div class="main-header  header-sticky">
+            <div class="container-fluid">
+              <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2 col-md-1">
+                  <div class="logo">
                     <Link to="/">
                       <img src="assets/img/logo/logo.png" alt="" />
                     </Link>
                   </div>
                 </div>
-                <div className="col-xl-10 col-lg-10 col-md-10">
-                  <div className="menu-main d-flex align-items-center justify-content-end">
-                    <div className="main-menu f-right d-none d-lg-block">
+                <div class="col-xl-10 col-lg-10 col-md-10">
+                  <div class="menu-main d-flex align-items-center justify-content-end">
+                    <div class="main-menu f-right d-none d-lg-block">
                       <nav>
                         <ul id="navigation">
                           <li>
@@ -34,11 +34,11 @@ class Header extends Component {
                             <Link to="/portfolio">Portfolio</Link>
                           </li>
                           <li>
-                            <Link to="/blog">Blog</Link>
-                          </li>
-                          {/* <li>
                             <Link to="#">Page</Link>
-                            <ul className="submenu">
+                            <ul class="submenu">
+                              <li>
+                                <Link to="/blog">Blog</Link>
+                              </li>
                               <li>
                                 <Link to="/blog_details">Blog Details</Link>
                               </li>
@@ -51,23 +51,22 @@ class Header extends Component {
                                 </Link>
                               </li>
                             </ul>
-                          </li> */}
+                          </li>
                           <li>
                             <Link to="/contact">Contact</Link>
                           </li>
                         </ul>
                       </nav>
                     </div>
-                    <div className="header-right-btn f-right d-none d-xl-block ml-20">
-                      <Link to="#" className="btn header-btn">
+                    <div class="header-right-btn f-right d-none d-xl-block ml-20">
+                      <Link to="#" class="btn header-btn">
                         Get Free Consultent
                       </Link>
                     </div>
                   </div>
                 </div>
-
-                <div className="col-12">
-                  <div className="mobile_menu d-block d-lg-none"></div>
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
                 </div>
               </div>
             </div>
