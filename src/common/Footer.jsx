@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -13,7 +14,7 @@ class Footer extends Component {
                     <div class="footer-top-cap text-center">
                       <img src="assets/img/logo/logo2_footer.png" alt="" />
                       <span>
-                        <a href="#">hireme@portfolio.com</a>
+                        <Link to="#">hireme@portfolio.com</Link>
                       </span>
                       <p>221B Baker Street, Post office Box 353 </p>
                       <p>Park Road, USA - 215431</p>
@@ -32,31 +33,31 @@ class Footer extends Component {
                         </script>{" "}
                         All rights reserved | This template is made with{" "}
                         <i class="fa fa-heart" aria-hidden="true"></i> by{" "}
-                        <a
-                          href="https://colorlib.com"
+                        <Link
+                          to="https://colorlib.com"
                           target="_blank"
                           rel="noreferrer"
                         >
                           Colorlib
-                        </a>
+                        </Link>
                       </p>
                     </div>
                   </div>
                   <div class="col-xl-3 col-lg-4">
                     <div class="footer-social f-right">
-                      <a>Stay Connected</a>
-                      <a href="#">
+                      <Link>Stay Connected</Link>
+                      <Link to="#">
                         <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i class="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i class="fas fa-globe"></i>
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i class="fab fa-instagram"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -66,10 +67,10 @@ class Footer extends Component {
         </footer>
 
         <div id="back-top">
-          <a title="Go to Top" href="#">
+          <Link title="Go to Top" to="#">
             {" "}
             <i class="fas fa-level-up-alt"></i>
-          </a>
+          </Link>
         </div>
       </>
     );

@@ -15,7 +15,7 @@ class Contact extends Component {
                     <nav aria-label="breadcrumb ">
                       <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                          <Link to="index.html">Home</Link>
+                          <Link to="/">Home</Link>
                         </li>
                         <li class="breadcrumb-item">
                           <Link to="#">Contact</Link>

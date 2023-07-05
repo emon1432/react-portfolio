@@ -100,7 +100,7 @@ class Home extends Component {
                   </div>
                   <div class="cat-cap">
                     <h5>
-                      <Link to="services.html">UI/UX Design</Link>
+                      <Link to="/services">UI/UX Design</Link>
                     </h5>
                     <p>
                       Free resource that will help nderstand thecv designc
@@ -117,7 +117,7 @@ class Home extends Component {
                   </div>
                   <div class="cat-cap">
                     <h5>
-                      <Link to="services.html">Digital Marketing</Link>
+                      <Link to="/services">Digital Marketing</Link>
                     </h5>
                     <p>
                       Free resource that will help nderstand thecv designc
@@ -134,7 +134,7 @@ class Home extends Component {
                   </div>
                   <div class="cat-cap">
                     <h5>
-                      <Link to="services.html">Website Design</Link>
+                      <Link to="/services">Website Design</Link>
                     </h5>
                     <p>
                       Free resource that will help nderstand thecv designc
@@ -574,7 +574,7 @@ class Home extends Component {
           <div class="latest-blog-area">
             <div class="container">
               <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 mb-3">
                   <div class="blog-wrapper">
                     <div class="blog-inner">
                       <div class="blog-top">
@@ -595,7 +595,7 @@ class Home extends Component {
                   </div>
                 </div>
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 mb-3">
                   <div class="blog-wrapper">
                     <div class="blog-inner">
                       <div class="blog-top">
@@ -616,7 +616,70 @@ class Home extends Component {
                   </div>
                 </div>
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 mb-3">
+                  <div class="blog-wrapper">
+                    <div class="blog-inner">
+                      <div class="blog-top">
+                        <div class="person-img">
+                          <img src="assets/img/gallery/blog3.png" alt="" />
+                        </div>
+                        <div class="comment-person">
+                          <h2>Bradley Erickson</h2>
+                          <span>UI/UX Designer</span>
+                        </div>
+                      </div>
+                      <p>
+                        Consectetur adipisicing elit, seddosdoe eiusmod tempor
+                        incididunt utore etstes dolore magna aliqua. Ut imminim
+                        restai veniam, quis nostrud.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 mb-3">
+                  <div class="blog-wrapper">
+                    <div class="blog-inner">
+                      <div class="blog-top">
+                        <div class="person-img">
+                          <img src="assets/img/gallery/blog1.png" alt="" />
+                        </div>
+                        <div class="comment-person">
+                          <h2>Bradley Erickson</h2>
+                          <span>UI/UX Designer</span>
+                        </div>
+                      </div>
+                      <p>
+                        Consectetur adipisicing elit, seddosdoe eiusmod tempor
+                        incididunt utore etstes dolore magna aliqua. Ut imminim
+                        restai veniam, quis nostrud.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 mb-3">
+                  <div class="blog-wrapper">
+                    <div class="blog-inner">
+                      <div class="blog-top">
+                        <div class="person-img">
+                          <img src="assets/img/gallery/blog2.png" alt="" />
+                        </div>
+                        <div class="comment-person">
+                          <h2>Bradley Erickson</h2>
+                          <span>UI/UX Designer</span>
+                        </div>
+                      </div>
+                      <p>
+                        Consectetur adipisicing elit, seddosdoe eiusmod tempor
+                        incididunt utore etstes dolore magna aliqua. Ut imminim
+                        restai veniam, quis nostrud.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 mb-3">
                   <div class="blog-wrapper">
                     <div class="blog-inner">
                       <div class="blog-top">

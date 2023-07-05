@@ -15,7 +15,7 @@ class Blog extends Component {
                     <nav aria-label="breadcrumb ">
                       <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                          <Link to="index.html">Home</Link>
+                          <Link to="/">Home</Link>
                         </li>
                         <li class="breadcrumb-item">
                           <Link to="#">Blog</Link>
@@ -47,7 +47,7 @@ class Blog extends Component {
                     </div>
 
                     <div class="blog_details">
-                      <Link class="d-inline-block" to="blog_details.html">
+                      <Link class="d-inline-block" to="/blog-details">
                         <h2>Google inks pact for new 35-storey office</h2>
                       </Link>
                       <p>
@@ -84,7 +84,7 @@ class Blog extends Component {
                     </div>
 
                     <div class="blog_details">
-                      <Link class="d-inline-block" to="blog_details.html">
+                      <Link class="d-inline-block" to="/blog-details">
                         <h2>Google inks pact for new 35-storey office</h2>
                       </Link>
                       <p>
@@ -121,7 +121,7 @@ class Blog extends Component {
                     </div>
 
                     <div class="blog_details">
-                      <Link class="d-inline-block" to="blog_details.html">
+                      <Link class="d-inline-block" to="/blog-details">
                         <h2>Google inks pact for new 35-storey office</h2>
                       </Link>
                       <p>
@@ -158,7 +158,7 @@ class Blog extends Component {
                     </div>
 
                     <div class="blog_details">
-                      <Link class="d-inline-block" to="blog_details.html">
+                      <Link class="d-inline-block" to="/blog-details">
                         <h2>Google inks pact for new 35-storey office</h2>
                       </Link>
                       <p>
@@ -195,7 +195,7 @@ class Blog extends Component {
                     </div>
 
                     <div class="blog_details">
-                      <Link class="d-inline-block" to="blog_details.html">
+                      <Link class="d-inline-block" to="/blog-details">
                         <h2>Google inks pact for new 35-storey office</h2>
                       </Link>
                       <p>
@@ -320,7 +320,7 @@ class Blog extends Component {
                     <div class="media post_item">
                       <img src="assets/img/post/post_1.png" alt="post" />
                       <div class="media-body">
-                        <Link to="blog_details.html">
+                        <Link to="/blog-details">
                           <h3>From life was you fish...</h3>
                         </Link>
                         <p>January 12, 2019</p>
@@ -329,7 +329,7 @@ class Blog extends Component {
                     <div class="media post_item">
                       <img src="assets/img/post/post_2.png" alt="post" />
                       <div class="media-body">
-                        <Link to="blog_details.html">
+                        <Link to="/blog-details">
                           <h3>The Amazing Hubble</h3>
                         </Link>
                         <p>02 Hours ago</p>
@@ -338,7 +338,7 @@ class Blog extends Component {
                     <div class="media post_item">
                       <img src="assets/img/post/post_3.png" alt="post" />
                       <div class="media-body">
-                        <Link to="blog_details.html">
+                        <Link to="/blog-details">
                           <h3>Astronomy Or Astrology</h3>
                         </Link>
                         <p>03 Hours ago</p>
@@ -347,7 +347,7 @@ class Blog extends Component {
                     <div class="media post_item">
                       <img src="assets/img/post/post_4.png" alt="post" />
                       <div class="media-body">
-                        <Link to="blog_details.html">
+                        <Link to="/blog-details">
                           <h3>Asteroids telescope</h3>
                         </Link>
                         <p>01 Hours ago</p>
