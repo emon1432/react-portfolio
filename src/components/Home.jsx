@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   render() {
@@ -24,22 +25,22 @@ class Home extends Component {
                       </p>
 
                       <div class="hero__btn">
-                        <a
-                          href="industries.html"
+                        <Link
+                          to="industries.html"
                           class="btn hero-btn"
                           data-animation="fadeInLeft"
                           data-delay=".8s"
                         >
                           Learn More
-                        </a>
-                        <a
-                          href="industries.html"
+                        </Link>
+                        <Link
+                          to="industries.html"
                           class="btn border-btn ml-15"
                           data-animation="fadeInRight"
                           data-delay="1.0s"
                         >
                           Hire Me
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -74,7 +75,7 @@ class Home extends Component {
                   </h3>
                   <p>Late talk with me</p>
                   <div class="send-cv">
-                    <a href="#">hire@colorlib.com</a>
+                    <Link to="#">hire@colorlib.com</Link>
                     <i class="ti-arrow-right"></i>
                   </div>
                 </div>
@@ -99,7 +100,7 @@ class Home extends Component {
                   </div>
                   <div class="cat-cap">
                     <h5>
-                      <a href="services.html">UI/UX Design</a>
+                      <Link to="services.html">UI/UX Design</Link>
                     </h5>
                     <p>
                       Free resource that will help nderstand thecv designc
@@ -116,7 +117,7 @@ class Home extends Component {
                   </div>
                   <div class="cat-cap">
                     <h5>
-                      <a href="services.html">Digital Marketing</a>
+                      <Link to="services.html">Digital Marketing</Link>
                     </h5>
                     <p>
                       Free resource that will help nderstand thecv designc
@@ -133,7 +134,7 @@ class Home extends Component {
                   </div>
                   <div class="cat-cap">
                     <h5>
-                      <a href="services.html">Website Design</a>
+                      <Link to="services.html">Website Design</Link>
                     </h5>
                     <p>
                       Free resource that will help nderstand thecv designc
@@ -159,62 +160,62 @@ class Home extends Component {
                   <div class="properties__button">
                     <nav>
                       <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a
+                        <Link
                           class="nav-item nav-link active"
                           id="nav-home-tab"
                           data-toggle="tab"
-                          href="#nav-home"
+                          to="#nav-home"
                           role="tab"
                           aria-controls="nav-home"
                           aria-selected="false"
                         >
                           All
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           class="nav-item nav-link"
                           id="nav-profile-tab"
                           data-toggle="tab"
-                          href="#nav-profile"
+                          to="#nav-profile"
                           role="tab"
                           aria-controls="nav-profile"
                           aria-selected="false"
                         >
                           {" "}
                           Branding
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           class="nav-item nav-link"
                           id="nav-contact-tab"
                           data-toggle="tab"
-                          href="#nav-contact"
+                          to="#nav-contact"
                           role="tab"
                           aria-controls="nav-contact"
                           aria-selected="false"
                         >
                           Logo
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           class="nav-item nav-link"
                           id="nav-last-tab"
                           data-toggle="tab"
-                          href="#nav-last"
+                          to="#nav-last"
                           role="tab"
                           aria-controls="nav-contact"
                           aria-selected="false"
                         >
                           UI/UX{" "}
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           class="nav-item nav-link"
                           id="nav-technology"
                           data-toggle="tab"
-                          href="#nav-techno"
+                          to="#nav-techno"
                           role="tab"
                           aria-controls="nav-contact"
                           aria-selected="false"
                         >
                           Web Design
-                        </a>
+                        </Link>
                       </div>
                     </nav>
                   </div>
@@ -553,9 +554,9 @@ class Home extends Component {
                 </div>
               </div>
               <div class="col-xl-2 col-lg-2 col-md-3">
-                <a href="#" class="btn btn-black f-right">
+                <Link to="#" class="btn btn-black f-right">
                   Contact Me Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>

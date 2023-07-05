@@ -34,23 +34,7 @@ class Header extends Component {
                             <Link to="/portfolio">Portfolio</Link>
                           </li>
                           <li>
-                            <Link to="#">Page</Link>
-                            <ul class="submenu">
-                              <li>
-                                <Link to="/blog">Blog</Link>
-                              </li>
-                              <li>
-                                <Link to="/blog_details">Blog Details</Link>
-                              </li>
-                              <li>
-                                <Link to="/elements">Element</Link>
-                              </li>
-                              <li>
-                                <Link to="/portfolio_details">
-                                  Portfolio Details
-                                </Link>
-                              </li>
-                            </ul>
+                            <Link to="/blog">Blog</Link>
                           </li>
                           <li>
                             <Link to="/contact">Contact</Link>
